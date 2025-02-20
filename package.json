@@ -1,0 +1,16 @@
+{
+  "name": "tester_cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^27.5.1"
+  }
+}
