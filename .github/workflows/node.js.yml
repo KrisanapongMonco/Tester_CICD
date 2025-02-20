@@ -22,5 +22,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run lint
+    - run: npx eslint . # Use npx to ensure the local ESLint is used
     - run: npm test
